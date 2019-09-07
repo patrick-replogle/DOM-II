@@ -122,6 +122,18 @@ a.forEach((element) => {
     })
 })
 
+//select
+
+document.getElementById("myTextField").addEventListener('select',(event) => {
+  alert('you have selected this')
+})
+
+//scroll
+let scrollCounter = 0;
+window.addEventListener('scroll', (event) => {
+  scrollCounter++;
+  console.log(`This page has been scrolled ${scrollCounter} times.`)
+})
 
 
 
