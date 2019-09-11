@@ -234,8 +234,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-.home .intro h2 {
-  margin-top: 20px;
+.home .intro .dropzone {
+  width: 350px;
+  height: 60px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -245,7 +249,6 @@ img {
 }
 .home .content-section .text-content {
   width: 48%;
-  padding-right: 1%;
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
